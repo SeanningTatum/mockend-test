@@ -1,28 +1,13 @@
-[
-    {
-        "id": "1",
-        "title": "Hubble React Exam",
-        "description":
-          "Spicy jalapeno bacon ipsum dolor amet turkey capicola hamburger, tenderloin bresaola pork belly tri-tip sausage brisket pork. Boudin sausage tri-tip frankfurter bresaola rump pork loin meatloaf tenderloin turkey burgdoggen jowl ribeye prosciutto landjaeger. Cow ground round shankle prosciutto buffalo, doner kielbasa pig drumstick pancetta. Beef boudin pastrami burgdoggen sausage, porchetta pork meatball.",
-        "published": false
-      },
-      {
-        "id": "2",
-        "title": "That made me hungry",
-        "description": "That last post's description was tasty...",
-        "published": true
-      },
-      {
-        "id": "3",
-        "title": "I'm running out of ideas here!!!",
-        "description": "You should've read more books then...",
-        "published": true
-      },
-      {
-        "id": "4",
-        "title": "Apex Legends",
-        "description":
-          "Who is your favorite legend? Ah a Wraith main... ok this interview is over",
-        "published": true
-      }
-]
+{
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
+}
